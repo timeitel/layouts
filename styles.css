@@ -28,6 +28,8 @@ body {
 
 .lorem-description--text {
   color: #63696c;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.8rem;
 }
 
 .separator {
