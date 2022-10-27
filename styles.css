@@ -1,10 +1,11 @@
 body {
-  padding: 0;
+  padding: 2rem 0;
   margin: 0;
 }
 
 .body-content {
   max-width: 950px;
+  min-width: 500px;
   margin: 0 auto;
 }
 
@@ -22,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .lorem-description--text {
@@ -40,6 +41,6 @@ body {
   background: #c0c3c5;
   border-radius: 2px;
   aspect-ratio: 16 / 9;
-  height: 10rem;
+  height: 12.5rem;
   width: 15rem;
 }
