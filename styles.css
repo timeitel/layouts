@@ -34,7 +34,7 @@ body {
 
 .separator {
   background: #c0c3c5;
-  height: 2px;
+  height: 1px;
   width: calc(100% - 2rem);
   margin: 0 auto;
 }
