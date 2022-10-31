@@ -1,0 +1,40 @@
+{
+  "articles": [
+    {
+      "headline": "Pain for Australians as inflation skyrockets",
+      "thumbnail": {
+        "title": "Money",
+        "width": 316,
+        "height": 237,
+        "src": "https://content.api.news/v3/images/bin/7b04f3b3161527d08deb2ddee49df415?width=316"
+      },
+      "link": "https://www.news.com.au/finance/economy/australian-economy/annual-consumer-price-index-inflation-highest-since-1990/news-story/baaa569490091fd041f8e38d858d8e53",
+      "description": "Annual consumer price index inflation has reached its highest in more than three decades, according to the Australia Bureau of Statistics.",
+      "category": "Finance"
+    },
+    {
+      "headline": "Big W causes frenzy over $40 Nike sale",
+      "thumbnail": {
+        "title": "Shoes",
+        "width": 316,
+        "height": 237,
+        "src": "https://content.api.news/v3/images/bin/095a7bf5f3d4835128b138d272f76444?width=316"
+      },
+      "link": "https://www.news.com.au/lifestyle/fashion/big-w-starts-selling-nike-shoes-for-40/news-story/76b64e7689eb958e963a24d5d119b504",
+      "description": "Big W has surprised shoppers by heavily discounting one of the most popular sporting brands, sending fans into a frenzy.",
+      "category": "Fashion"
+    },
+    {
+      "headline": "Brand removes controversial ingredient",
+      "thumbnail": {
+        "title": "Chocolate",
+        "width": 316,
+        "height": 237,
+        "src": "https://content.api.news/v3/images/bin/05684bb3139d03ccef1856a71f66fd5b?width=316"
+      },
+      "link": "https://www.news.com.au/lifestyle/food/eat/darrell-lea-removes-controversial-palm-oil-ingredient-from-chocolate/news-story/bb2d04be500ef0c8b18d4ec821eb5aef",
+      "description": "The iconic Australian chocolate brand will change the ingredients for over 100 of its products – and is now calling on other companies to do the same.",
+      "category": "Eat"
+    }
+  ]
+}
