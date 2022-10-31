@@ -19,8 +19,14 @@ const data = fetch("https://timeitel.github.io/layouts/data.json")
       headerElement.appendChild(categoryElement);
 
       const headlineElement = document.createElement("h2");
-      headlineElement.textContent = a.headline;
       headerElement.appendChild(headlineElement);
+
+      const headlineAnchorElement = document.createElement("a");
+      headlineAnchorElement.href = a.link;
+      headlineAnchorElement.textContent = a.headline;
+      headlineAnchorElement.style.color = "#000000";
+      headlineAnchorElement.style.textDecorationLine = "none";
+      headlineElement.appendChild(headlineAnchorElement);
 
       const descriptionTextElement = document.createElement("div");
       descriptionTextElement.classList.add("lorem-description--text");

@@ -20,6 +20,15 @@ figure {
   margin: 0;
 }
 
+figure:hover {
+  opacity: 0.5;
+}
+
+h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .category-label {
   color: #0059bf;
   font-size: 1.125rem;
