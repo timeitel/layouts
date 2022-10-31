@@ -1,4 +1,4 @@
-const data = fetch("https://timeitel.github.io/layouts/data.json")
+const data = fetch("./data.json")
   .then((response) => response.json())
   .then((data) => {
     const sectionElement = document.getElementById("articles--section");
@@ -49,16 +49,6 @@ const data = fetch("https://timeitel.github.io/layouts/data.json")
       const separatorElement = document.createElement("div");
       separatorElement.classList.add("separator");
       sectionElement.appendChild(separatorElement);
-
-      // const note = document.querySelector(".note");
-      // note.style.backgroundColor = "yellow";
-      // note.style.color = "red";
-      // ✅ Add text content to element
-      // el.textContent = "Hello world";
-
-      // ✅ Or set the innerHTML of the element
-      // el.innerHTML = `<span>One, two, three</span>`;
     });
-    console.log(data);
   })
   .catch((error) => console.log(error));
