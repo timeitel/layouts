@@ -28,7 +28,17 @@ const data = fetch("https://timeitel.github.io/layouts/data.json")
       loremDescriptionElement.appendChild(descriptionTextElement);
 
       const figureElement = document.createElement("figure");
+      figureElement.style.height = a.thumbnail.height;
+      figureElement.style.width = a.thumbnail.width;
       articleElement.appendChild(figureElement);
+
+      const anchorElement = document.createElement("a");
+      anchorElement.href = a.link;
+      figureElement.appendChild(anchorElement);
+
+      const imgElement = document.createElement("img");
+      imgElement.src = a.thumbnail.src;
+      anchorElement.appendChild(imgElement);
 
       const separatorElement = document.createElement("div");
       separatorElement.classList.add("separator");
